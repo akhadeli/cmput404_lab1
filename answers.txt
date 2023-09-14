@@ -1,0 +1,21 @@
+Q1: https://github.com/akhadeli
+Q2: Version 2.25.1 already installed on lab machine
+Q3: Installed requests version 2.31.0 in the virtual environment
+Q4: The python virtual environment is created on top of the existing python installation, 
+    creatng a base environment with minimal packages. Packages installed on a virtual environment
+    are independent of the global python installation on the machine.
+Q5: 301 Moved Permanently, must visit http://www.google.com/
+Q6: curl -i http://google.com/teapot code is 301 Moved Permanently
+    curl -iL http://google.com/teapot code is 301 Moved Permanently then redirects, resulting in code 418
+    curl -i http://www.google.com/teapot code is 418 I'm a Teapot
+Q7: The post request results in added lines due to the added form data:
+    '''<DT>X: <i>&lt;type 'instance'&gt;</i>
+       <DD>MiniFieldStorage('X', 'Y')'''
+    Additionally:
+    '''<DT> CONTENT_LENGTH <DD> 3
+       <DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded'''
+    '''<DT> REMOTE_PORT <DD> 49840
+       <DT> REQUEST_METHOD <DD> POST'''
+    Indicating that a post request was used.
+    The POST method is used to send data to the webserver
+Q8: https://raw.githubusercontent.com/akhadeli/cmput404_lab1/main/script.py
